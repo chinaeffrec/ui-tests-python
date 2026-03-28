@@ -32,3 +32,5 @@ This project contains automated UI tests for the [Practice Automation Form Field
 ## Running Tests
 1. Navigate to the project root.
 2. Run all tests: ```pytest -s```
+3. Run tests with allure: ```pytest --alluredir=allure-results```
+4. Allure report: ```allure serve allure-results```
