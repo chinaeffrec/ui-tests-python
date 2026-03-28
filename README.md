@@ -1,7 +1,7 @@
 # UI Tests for Form Fields 
 This project contains automated UI tests for the [Practice Automation Form Fields] (https://practice-automation.com/form-fields/) page, using **Go** and **Selenium WebDriver** with **Firefox (GeckoDriver)**.
 
-**Note:** Analogous UI tests are also available in **Python** in a <>.
+**Note:** Analogous UI tests are also available in **Golang** in a https://github.com/chinaeffrec/ui-tests-go .
 
 ## Test Scenarios
 
@@ -30,5 +30,5 @@ This project contains automated UI tests for the [Practice Automation Form Field
 - GeckoDriver installed and accessible in PATH
 
 ## Running Tests
-1. Navigate to the project root: ```cd uiTests```
-2. Run all tests: ```go run run_tests.go```
+1. Navigate to the project root.
+2. Run all tests: ```pytest -s```
