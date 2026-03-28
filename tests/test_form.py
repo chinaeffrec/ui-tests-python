@@ -35,4 +35,4 @@ def test_form_negative_invalid_email(driver):
         .get_alert_text()
     )
 
-    assert alert_text == "Message received!"
+    assert alert_text == "Invalid email!"
